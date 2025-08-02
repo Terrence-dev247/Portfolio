@@ -61,7 +61,7 @@
 
     <h1>Tebogo Terrence Poohe</h1>
     <p><i class="fas fa-code icon"></i>Aspiring IT Professional | Bachelor of science in Information Techhology | Emerging Tech</p>
-    <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:402413205@my.richfield.ac.za">402413205@my.richfield.ac.za</a></p>
+    <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
     <p><i class="fas fa-certificate icon"></i>Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
   </header>
 
