@@ -186,6 +186,7 @@
     <section id="contact">
       <h2><i class="fas fa-envelope icon"></i>Contact</h2>
       <p>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
+      <p>Phone: <a href="tel:+27673314015">+27 67 331 4015</a></p>
       <p>Academic Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
     </section>
   </div>
