@@ -58,9 +58,8 @@
 <body>
   <header>
     <img src="nna.jpg" alt="Tebogo Poohe Profile Picture" />
-
     <h1>Tebogo Terrence Poohe</h1>
-    <p><i class="fas fa-code icon"></i>Aspiring IT Professional | Bachelor of science in Information Techhology | Emerging Tech</p>
+    <p><i class="fas fa-code icon"></i>Aspiring IT Professional | Bachelor of Science in Information Technology | Emerging Technologies</p>
     <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
     <p><i class="fas fa-certificate icon"></i>Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
   </header>
@@ -69,28 +68,26 @@
     <section>
       <h2><i class="fas fa-user icon"></i>Professional Summary</h2>
       <p>
-        I am a Bachelor of Science in Information Technology student at Richfield Graduate Institute of Technology, specializing in
-        <strong>Emerging Technologies</strong>. I have developed a strong foundation in areas such as cybersecurity, cloud computing,
-        AI, networking, and data analytics through hands-on training and certifications.
+        I am a Bachelor of Science in Information Technology student at Richfield Graduate Institute of Technology, specializing in <strong>Emerging Technologies</strong>. I’ve built a strong foundation in areas like cybersecurity, data science, networking, and cloud computing through hands-on labs and recognized certifications.
       </p>
     </section>
-	
-<section id="certifications">
-  <h2>Latest Certification</h2>
-  <p>
-    After a long break, I decided to continue developing my skills and expanding my knowledge by completing the <strong>Introduction to Data Science</strong> course, as it aligns with my specialization in <strong>Emerging Technologies</strong>. This course strengthened my understanding of Data Analytics, Engineering, and AI/ML roles.
-  </p>
-  <a href="academic_transcript20250804-33-3fzf6w.pdf" download>📄 Download My Transcript</a>
-</section>
+
+    <section id="certifications">
+      <h2><i class="fas fa-certificate icon"></i>Latest Achievement</h2>
+      <p>
+        I recently completed the <strong>Introduction to Data Science</strong> course with Cisco, further strengthening my knowledge of Data Analytics, Engineering, and AI/ML roles. It marks a continued effort to grow in the emerging tech space.
+      </p>
+      <a href="academic_transcript20250804-33-3fzf6w.pdf" download>📄 Download My Transcript</a>
+    </section>
 
     <section>
       <h2><i class="fas fa-tools icon"></i>Skills</h2>
       <ul>
         <li>Programming: Python, JavaScript, SQL</li>
         <li>Cybersecurity: Threat Management, Network Defense, Endpoint Security</li>
-        <li>Networking: IP Addressing, Packet Tracer Labs, Device Configuration</li>
-        <li>Cloud & Data: AWS, IBM SkillsBuild, Data Analytics</li>
-        <li>Tools: Cisco Packet Tracer, VS Code</li>
+        <li>Networking: IP Addressing, Cisco Labs, Device Configuration</li>
+        <li>Cloud & Data: AWS, Data Analytics, IBM SkillsBuild</li>
+        <li>Tools: Cisco Packet Tracer, VS Code, Excel, Tableau</li>
       </ul>
     </section>
 
@@ -98,20 +95,27 @@
       <h2><i class="fas fa-award icon"></i>Certifications & Badges</h2>
       <ul class="badge-list">
         <li>Introduction to Data Science – Cisco</li>
-        <li>AWS Academy Cloud Architecting – Amazon</li>
+        <li>Data Analytics Essentials – Cisco</li>
+        <li>AWS Academy Cloud Architecting – AWS</li>
         <li>Explore Emerging Tech – IBM</li>
         <li>Cybersecurity Fundamentals – IBM</li>
-        <li>JavaScript Essentials 1 – Cisco & OpenEDG</li>
+        <li>Introduction to Cybersecurity – Cisco</li>
+        <li>Cyber Threat Management – Cisco</li>
+        <li>Network Defense – Cisco</li>
+        <li>Endpoint Security – Cisco</li>
+        <li>Networking Basics – Cisco</li>
         <li>Networking Devices & Initial Configuration – Cisco</li>
+        <li>Operating Systems Basics – Cisco</li>
+        <li>JavaScript Essentials 1 – Cisco & OpenEDG</li>
         <li>Junior Cybersecurity Analyst Career Path – Cisco</li>
+        <li>Introduction to the Threat Landscape 2.0 – Fortinet</li>
       </ul>
     </section>
 
     <section>
       <h2><i class="fas fa-bullseye icon"></i>Career Objective</h2>
       <p>
-        To apply my passion for emerging technology, data science, and cybersecurity to solve real-world challenges. I aspire to become a
-        <strong>technology consultant</strong> or <strong>solutions architect</strong> who contributes to innovation, efficiency, and digital inclusion across Africa.
+        My goal is to become a <strong>technology consultant</strong> or <strong>solutions architect</strong>, using my skills in emerging technologies, data science, and cybersecurity to help organizations solve complex problems and drive digital transformation across Africa.
       </p>
     </section>
   </div>
