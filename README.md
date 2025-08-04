@@ -80,7 +80,7 @@
   <p>
     After a long break, I decided to continue developing my skills and expanding my knowledge by completing the <strong>Introduction to Data Science</strong> course, as it aligns with my specialization in <strong>Emerging Technologies</strong>. This course strengthened my understanding of Data Analytics, Engineering, and AI/ML roles.
   </p>
-  <a href="academic_transcript20250802-33-n5az4v.pdf" download>📄 Download My Transcript</a>
+  <a href=academic_transcript20250804-33-3fzf6w.pdf" download>📄 Download My Transcript</a>
 </section>
 
     <section>
