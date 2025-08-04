@@ -3,25 +3,71 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tebogo Terrence Poohe | Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pV+l8HHz5ZKhWkxZWciOy6Xtq3jWj4xkRSCFT8q9OhXn4BncDbW0kBNK4t1dEciX3vvjGeaVcK+m4u8Ox7V7Fg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f2f5;
-      color: #333;
+      font-family: 'Poppins', sans-serif;
+      background-color: #1e1e1e;
+      color: #f5f5f5;
       margin: 0;
-      padding: 0;
     }
-    header {
-      background: linear-gradient(to right, #2f3542, #57606f);
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #121212;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #aaa;
+      text-decoration: none;
+    }
+    nav a:hover {
       color: white;
-      padding: 2rem;
-      text-align: center;
+      transition: 0.3s;
     }
-    header img {
-      width: 120px;
-      border-radius: 50%;
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      background-color: #1e1e1e;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+      max-width: 500px;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
       margin-bottom: 1rem;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+    .hero-text a {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.8rem 1.6rem;
+      background-color: #3b82f6;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero-image {
+      flex: 1;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero-image img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
     }
     .container {
       max-width: 960px;
@@ -32,15 +78,15 @@
       margin-bottom: 2rem;
     }
     h2 {
-      color: #2f3542;
-      border-bottom: 2px solid #ccc;
+      color: #ffffff;
+      border-bottom: 2px solid #444;
       padding-bottom: 0.5rem;
     }
     ul {
       padding-left: 1.5rem;
     }
     a {
-      color: #1e90ff;
+      color: #3b82f6;
       text-decoration: none;
     }
     a:hover {
@@ -51,36 +97,52 @@
     }
     .icon {
       margin-right: 0.5rem;
-      color: #2f3542;
+      color: #3b82f6;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="nna.jpg" alt="Tebogo Poohe Profile Picture" />
-    <h1>Tebogo Terrence Poohe</h1>
-    <p><i class="fas fa-code icon"></i>Aspiring IT Professional | Bachelor of Science in Information Technology | Emerging Technologies</p>
-    <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
-    <p><i class="fas fa-certificate icon"></i>Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
-  </header>
+  <!-- Navigation -->
+  <nav>
+    <div><strong>TEBOGO</strong></div>
+    <div>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hey, I'm Tebogo.</h1>
+      <p>A passionate IT student from South Africa. I'm building a strong academic foundation in cybersecurity, cloud, and data science, and actively pursuing bursary opportunities to further my education and make an impact in the tech world.</p>
+      <a href="#projects">My Projects</a>
+    </div>
+    <div class="hero-image">
+      <img src="nna.jpg" alt="Tebogo photo" />
+    </div>
+  </section>
+
+  <!-- Main Content -->
   <div class="container">
-    <section>
-      <h2><i class="fas fa-user icon"></i>Professional Summary</h2>
+    <section id="about">
+      <h2><i class="fas fa-user icon"></i>Academic Summary</h2>
       <p>
-        I am a Bachelor of Science in Information Technology student at Richfield Graduate Institute of Technology, specializing in <strong>Emerging Technologies</strong>. I’ve built a strong foundation in areas like cybersecurity, data science, networking, and cloud computing through hands-on labs and recognized certifications.
+        I am currently studying towards a Bachelor of Science in Information Technology at Richfield Graduate Institute of Technology, majoring in <strong>Emerging Technologies</strong>. I am committed to continuous learning, gaining practical experience through projects and globally recognized certifications.
       </p>
     </section>
 
     <section id="certifications">
       <h2><i class="fas fa-certificate icon"></i>Latest Achievement</h2>
       <p>
-        I recently completed the <strong>Introduction to Data Science</strong> course with Cisco, further strengthening my knowledge of Data Analytics, Engineering, and AI/ML roles. It marks a continued effort to grow in the emerging tech space.
+        I recently completed the <strong>Introduction to Data Science</strong> course with Cisco, further strengthening my knowledge of Data Analytics, Engineering, and AI/ML roles.
       </p>
       <a href="academic_transcript20250804-33-3fzf6w.pdf" download>📄 Download My Transcript</a>
     </section>
 
-    <section>
+    <section id="skills">
       <h2><i class="fas fa-tools icon"></i>Skills</h2>
       <ul>
         <li>Programming: Python, JavaScript, SQL</li>
@@ -88,6 +150,15 @@
         <li>Networking: IP Addressing, Cisco Labs, Device Configuration</li>
         <li>Cloud & Data: AWS, Data Analytics, IBM SkillsBuild</li>
         <li>Tools: Cisco Packet Tracer, VS Code, Excel, Tableau</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2><i class="fas fa-code icon"></i>Academic Projects</h2>
+      <ul>
+        <li><strong>Packet Tracer Lab:</strong> Simulated network with VLANs and routing protocols.</li>
+        <li><strong>JavaScript Quiz App:</strong> Developed a basic quiz app using JavaScript and DOM manipulation.</li>
+        <li><strong>Portfolio Website:</strong> Built and maintained a personal academic profile and project showcase.</li>
       </ul>
     </section>
 
@@ -112,11 +183,10 @@
       </ul>
     </section>
 
-    <section>
-      <h2><i class="fas fa-bullseye icon"></i>Career Objective</h2>
-      <p>
-        My goal is to become a <strong>technology consultant</strong> or <strong>solutions architect</strong>, using my skills in emerging technologies, data science, and cybersecurity to help organizations solve complex problems and drive digital transformation across Africa.
-      </p>
+    <section id="contact">
+      <h2><i class="fas fa-envelope icon"></i>Contact</h2>
+      <p>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
+      <p>Academic Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
     </section>
   </div>
 </body>
