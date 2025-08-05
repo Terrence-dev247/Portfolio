@@ -16,13 +16,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      flex-wrap: wrap;
       padding: 1rem 2rem;
       background-color: #121212;
     }
     nav a {
-      margin: 0 1rem;
+      margin: 0.5rem 1rem;
       color: #aaa;
       text-decoration: none;
+      display: inline-block;
     }
     nav a:hover {
       color: white;
@@ -35,19 +37,21 @@
       justify-content: center;
       padding: 4rem 2rem;
       background-color: #1e1e1e;
+      text-align: center;
     }
     .hero-text {
       flex: 1;
-      min-width: 300px;
+      min-width: 280px;
       max-width: 500px;
     }
     .hero-text h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
     .hero-text p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 1.6;
+      word-wrap: break-word;
     }
     .hero-text a {
       display: inline-block;
@@ -61,18 +65,18 @@
     }
     .hero-image {
       flex: 1;
-      text-align: center;
       padding: 2rem;
     }
     .hero-image img {
-      width: 300px;
+      width: 80%;
+      max-width: 300px;
       border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
     .container {
       max-width: 960px;
       margin: auto;
-      padding: 2rem;
+      padding: 2rem 1rem;
     }
     section {
       margin-bottom: 2rem;
@@ -81,9 +85,14 @@
       color: #ffffff;
       border-bottom: 2px solid #444;
       padding-bottom: 0.5rem;
+      font-size: 1.5rem;
     }
     ul {
-      padding-left: 1.5rem;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
     }
     a {
       color: #3b82f6;
@@ -99,9 +108,35 @@
       margin-right: 0.5rem;
       color: #3b82f6;
     }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav a {
+        margin: 0.5rem 0;
+      }
+      .hero {
+        padding: 2rem 1rem;
+      }
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+      .hero-text p {
+        font-size: 1rem;
+      }
+      .container {
+        padding: 1rem;
+      }
+      section h2 {
+        font-size: 1.2rem;
+      }
+    }
   </style>
 </head>
 <body>
+
   <!-- Navigation -->
   <nav>
     <div><strong>TEBOGO</strong></div>
@@ -190,5 +225,6 @@
       <p>Academic Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
     </section>
   </div>
+
 </body>
 </html>
