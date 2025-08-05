@@ -20,8 +20,6 @@
     }
     header img {
       width: 120px;
-      height: 120px;
-      object-fit: cover;
       border-radius: 50%;
       margin-bottom: 1rem;
     }
@@ -71,7 +69,7 @@
 </head>
 <body>
   <header>
-    <img src="https://terrence-dev247.github.io/My_Portfolio/nna.jpg" alt="Tebogo Poohe Profile Picture" />
+    <img src="nna.jpg" alt="Tebogo Poohe Profile Picture" />
     <h1>Tebogo Terrence Poohe</h1>
     <p><i class="fas fa-code icon"></i>Aspiring IT Professional | Bachelor of Science in Information Technology | Emerging Tech</p>
     <p><i class="fas fa-envelope icon"></i>Email: <a href="mailto:402413205@my.richfield.ac.za">402413205@my.richfield.ac.za</a></p>
