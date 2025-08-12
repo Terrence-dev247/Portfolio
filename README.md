@@ -115,3 +115,82 @@
 
   <!-- Hero Section -->
   <section class="hero">
+    <div class="hero-text">
+      <h1>Hey, I'm Tebogo.</h1>
+      <p>A passionate IT student from South Africa. I'm building a strong academic foundation in cybersecurity, cloud, and data science, and actively pursuing bursary opportunities to further my education and make an impact in the tech world.</p>
+      <a href="#projects">My Projects</a>
+    </div>
+    <div class="hero-image">
+      <img src="nna.jpg" alt="Tebogo photo" />
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <div class="container">
+    <section id="about">
+      <h2><i class="fas fa-user icon"></i>Academic Summary</h2>
+      <p>
+        I am currently studying towards a Bachelor of Science in Information Technology at Richfield Graduate Institute of Technology, majoring in <strong>Emerging Technologies</strong>. I am committed to continuous learning, gaining practical experience through projects and globally recognized certifications.
+      </p>
+    </section>
+
+    <section id="certifications">
+      <h2><i class="fas fa-certificate icon"></i>Latest Achievement</h2>
+      <p>
+        I recently completed the <strong>Introduction to Data Science</strong> course with Cisco, further strengthening my knowledge of Data Analytics, Engineering, and AI/ML roles.
+      </p>
+      <a href="academic_transcript20250804-33-3fzf6w.pdf" download>📄 Download My Transcript</a>
+    </section>
+
+    <section id="skills">
+      <h2><i class="fas fa-tools icon"></i>Skills</h2>
+      <ul>
+        <li>Programming: Python, JavaScript, SQL</li>
+        <li>Cybersecurity: Threat Management, Network Defense, Endpoint Security</li>
+        <li>Networking: IP Addressing, Cisco Labs, Device Configuration</li>
+        <li>Cloud & Data: AWS, Data Analytics, IBM SkillsBuild</li>
+        <li>Tools: Cisco Packet Tracer, VS Code, Excel, Tableau</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2><i class="fas fa-code icon"></i>Academic Projects</h2>
+      <ul>
+        <li><strong>Packet Tracer Lab:</strong> Simulated network with VLANs and routing protocols.</li>
+        <li><strong>JavaScript Quiz App:</strong> Developed a basic quiz app using JavaScript and DOM manipulation.</li>
+        <li><strong>Portfolio Website:</strong> Built and maintained a personal academic profile and project showcase.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="fas fa-award icon"></i>Certifications & Badges</h2>
+      <ul class="badge-list">
+        <li>Introduction to Data Science – Cisco</li>
+        <li>Data Analytics Essentials – Cisco</li>
+        <li>AWS Academy Cloud Architecting – AWS</li>
+        <li>Explore Emerging Tech – IBM</li>
+        <li>Cybersecurity Fundamentals – IBM</li>
+        <li>Introduction to Cybersecurity – Cisco</li>
+        <li>Cyber Threat Management – Cisco</li>
+        <li>Network Defense – Cisco</li>
+        <li>Endpoint Security – Cisco</li>
+        <li>Networking Basics – Cisco</li>
+        <li>Networking Devices & Initial Configuration – Cisco</li>
+        <li>Operating Systems Basics – Cisco</li>
+        <li>JavaScript Essentials 1 – Cisco & OpenEDG</li>
+        <li>Junior Cybersecurity Analyst Career Path – Cisco</li>
+        <li>Introduction to the Threat Landscape 2.0 – Fortinet</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2><i class="fas fa-envelope icon"></i>Contact</h2>
+      <p>Email: <a href="mailto:terrencepoohe@gmail.com">terrencepoohe@gmail.com</a></p>
+      <p>Phone: <a href="tel:+27673314015">+27 67 331 4015</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/tebogo-poohe" target="_blank">linkedin.com/in/tebogo-poohe</a></p>
+      <p>GitHub: <a href="https://github.com/tebogo-poohe" target="_blank">github.com/tebogo-poohe</a></p>
+      <p>Academic Badges: <a href="https://www.credly.com/users/tebogo-poohe" target="_blank">View My Credentials</a></p>
+    </section>
+  </div>
+</body>
+</html>
