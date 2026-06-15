@@ -708,7 +708,7 @@
               <li>POPIA-compliant responsible AI framework</li>
             </ul>
             <div class="project-links">
-              <a href="https://github.com/terrence-dev247" class="project-link" target="_blank">
+              <a href="https://github.com/terrence-dev247/sa_road_accidents_ml_dashboard" class="project-link" target="_blank">
                 ⬡ GitHub Repo
               </a>
             </div>
