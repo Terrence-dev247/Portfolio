@@ -174,10 +174,16 @@
       border-bottom: 1px solid rgba(255,255,255,0.06);
       padding: 28px 5%;
     }
-    .stat-bar-inner {
-      max-width: 1100px; margin: 0 auto;
-      display: flex; gap: 0;
-    }
+    @media (max-width: 768px) {
+  .stat-bar-inner {
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    min-width: 50%;
+    border-right: none;
+  }
+}
     .stat {
       flex: 1; text-align: center;
       border-right: 1px solid rgba(255,255,255,0.08);
